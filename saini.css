@@ -1,0 +1,81 @@
+.main
+{
+    width: 100%;
+    background-image: url(jobd.webp);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    display: flex;
+    width: 1000px;
+    height: 75px;
+    margin: auto;
+    align-items: center;
+    
+    }
+.icon{
+    width: 200px;
+    float:left;
+    height: 70px;
+
+}
+.logo{
+    color:brown;
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+    padding-top: 10px;
+    padding-right:50px;
+}
+.menu{
+    width: 400px;
+    float:left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration:none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:maroon;
+}
+.detail{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:black;
+    position:relative;
+
+}
+.detail h1{
+    font-family: "times new roman";
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.detail .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    color:black;
+}
+
